@@ -166,8 +166,4 @@ __declspec( naked ) int main( ) {
 		pop ebp
 		ret
 	}
-
-//	auto pid = get_csgo_process( );
-//	auto handle = open_process_handle( pid );
-//	inject( handle );
 }
